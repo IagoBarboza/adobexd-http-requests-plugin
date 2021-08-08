@@ -1,0 +1,33 @@
+{
+  "manifestVersion": 4,
+  "id": "123456",
+  "name": "AdobeXD Http Requests Plugin",
+  "version": "0.0.1",
+  "host": {
+    "app": "XD",
+    "minVersion": "36.0"
+  },
+  "entryPoints": [
+    {
+      "type": "command",
+      "id": "applyImage",
+      "label": {
+        "default": "How to make network requests"
+      },
+      "shortcut": {
+        "mac": "Cmd+Alt+R",
+        "windows": "CtrlAlt+R"
+      }
+    }
+  ],
+  "icons": [
+    {
+      "width": 24,
+      "height": 24,
+      "path": "icons/icon.png",
+      "scale": [1,2],
+      "theme": ["all"],
+      "species": ["pluginList"]
+    }
+  ]
+}
